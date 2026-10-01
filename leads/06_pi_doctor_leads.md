@@ -1,19 +1,18 @@
 # PI Doctor Leads (USA): practices that treat personal injury patients on LOP / lien
 
-Generated 2026-10-01. Entries: 16. Data: `06_pi_doctor_leads.csv`.
+Generated 2026-10-01. Entries: 19. Workbook: `PFD_PI_Doctor_Leads.xlsx`. CSV: `06_pi_doctor_leads.csv`. Built by `make_pi_xlsx.py`.
 
 ## Read this first
-- Found through web search listings only. No practice site was opened, so `partial` = name, area and PI/lien claim appeared in a source; `unverified` = weaker evidence. Confirm everything on the practice's own site before outreach.
-- **No source shows a practice is "seeking funding."** The funding fit column is inferred: practices that treat on LOP/lien carry unpaid receivables until settlement. Qualify each one on the first call.
-- Coverage is uneven: CA, TX, FL, GA, AZ, NY/NJ only. Searches for CO, NV, IL, MI and OH returned legal explainers, not practices. Needs another pass.
-- Contact names, emails and phones are not included. Use the practice's published contact page, and check TCPA/CAN-SPAM and `05_compliance_checklist.md` first.
-- Medical-lien and LOP practices are under litigation scrutiny in some states (e.g. the Becker's article on a spine practice's PI model). Include that in diligence.
+- Found through web search results only. Practice websites could not be opened (blocked by the network egress proxy), so `partial` = a source stated the PI/lien claim; `unverified` = weaker evidence.
+- **Blank phone, email or doctor cells mean not retrieved**, not "none." Only 6 entries have a phone number and none has an email, because no search result showed one. Phones are business main lines from snippets or directories; verify them on the practice site.
+- Doctor names are only those a result printed; several are surnames only.
+- **No source shows a practice is "seeking funding."** The funding-fit column is inferred from LOP/lien treatment. Qualify on the first call.
+- "Accident Centers of Texas" was named in one summary but a follow-up search could not confirm it as a real multi-site chain; it is marked unverified.
+- Searches for CO, MI, OH and PA returned only legal explainers, no practices. NV added 2 entries (1 with weak PI evidence).
+- Check TCPA/CAN-SPAM/DNC and `05_compliance_checklist.md` before outreach. Lien/LOP practices face litigation scrutiny in some states; include in diligence.
 
-## Priority (strongest fit first)
-1. Accident Clinic AZ, growing multi-site, lien-based.
-2. Advanced Spine and Pain (AZ), multi-specialty PI team.
-3. New York Spine Institute, surgical lien volume.
-4. Dr. Virella (CA), lien-based spine surgery.
-5. Texas multi-site networks (Accident Centers of Texas, Spine & Pain Institute of Texas, Texas Pain & Injury, Texas Injury and Rehab).
-
-See the CSV for the remaining entries and source URLs.
+## Strongest fits
+1. Accident Clinic AZ (growing, lien-based; no phone yet)
+2. Advanced Spine and Pain, AZ (480-573-0130)
+3. New York Spine Institute (1-888-444-6974)
+4. Dr. Anthony Virella, CA (805-449-0088)
