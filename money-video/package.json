@@ -1,0 +1,16 @@
+{
+  "name": "money-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "remotion render --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell src/index.ts MoneyIn30 out/money-in-30.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.533",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.533",
+    "typescript": "^7.0.2"
+  }
+}
