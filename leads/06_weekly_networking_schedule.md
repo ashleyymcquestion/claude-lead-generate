@@ -8,23 +8,23 @@ A daily 10am (Pacific) push notification re-checks these and sends the day's lis
 
 ## The weekly rhythm
 
-| Day | Time | Event | Who's there | Location | Phone | Link |
-|---|---|---|---|---|---|---|
-| **Mon** (2nd & 4th) | 12:00 PM | Greater Irvine Chamber Leads Group | Business owners, CPAs, attorneys | Irvine (venue from chamber; office 2485 McCabe Way #150) | (949) 660-9112 | irvinechamber.com |
-| **Mon** (every) | AM | Call day: follow up last week's contacts; call 5 CPAs from `01_referral_partners.csv` | CPAs | Office | - | - |
-| **Tue** (every) | Evening | Commercial Real Estate Networking & Beer (no fees) | CRE brokers, owners, lenders | Costa Mesa / South Coast Metro (venue rotates; check Meetup) | Not listed | meetup.com/commercial-real-estate-networking |
-| **Tue** (1st) | Evening | OC FIBI Real Estate Investment Club (~11k members) | Real estate investors | Irvine (venue on Meetup) | Not listed | meetup.com/orange-county-fibi |
-| **Wed** (1st, in person) | 7:00-8:30 AM | Orange BNI | Local professionals | Orange (online the other Wednesdays) | Not listed | meetup.com/Orange-BNI-Orange-Countys-Best-Business-Group |
-| **Wed** (1st & 3rd) | 12:00 PM | Greater Irvine Chamber Leads Group | Business owners, CPAs | Irvine | (949) 660-9112 | irvinechamber.com |
-| **Wed** (usual) | ~6:00 PM | Tech Link Up After Hours | Tech founders, early employees (equity-rich) | Hangar 24, 17877 Von Karman Ave #110, Irvine | (949) 799-0020 (venue) | meetup.com/oc-tech-link-up |
-| **Wed or Thu** (weekly) | 6:00-9:00 PM | OC Happy Hour | Mixed OC professionals | Rotates: Irvine, Newport, Costa Mesa (e.g. Hive & Honey Rooftop, Irvine) | Not listed | meetup.com/oc-happy-hour |
-| **Thu** (every) | 7:00-8:30 AM | LeTip of Irvine Spectrum breakfast (guests free) | Referral-based professionals | Irvine Spectrum (venue on site) | (949) 835-3847 | letipirvine.net |
-| **Thu** (every) | 7:00 AM | OC Pro Networkers breakfast ($15) | Referral-based professionals | Laguna Hills | (949) 278-3048 | ocpronet.com |
-| **Thu** (2nd) | 5:30 PM check-in, 6:30-9:30 PM | **OCREIA monthly meeting** (top pick) | Active real estate investors | Avenue of the Arts Hotel, 3350 Avenue of the Arts, Costa Mesa (also Zoom) | (866) 200-1435 (OCREIA); (714) 751-5100 (hotel) | ocreia.com |
-| **Thu** (2nd) | 7:00-10:00 PM | Property Deal Network (free, no pitches, 25+) | Real estate investors | Wild Goose Tavern, Costa Mesa | Not listed | skiddle.com (search "Property Deal Network") |
-| **Fri** | AM | Coffee with 1-2 CPAs / RIAs met that week | CPAs, advisors | Your pick | - | - |
-| **Sat** (occasional) | Varies | OC Traders meetups and "Traders' Happy Hours" (stocks, options, futures) | Active traders | Irvine (hybrid; location on Meetup) | Not listed | meetup.com/octraders |
-| **Sun** | - | Plan the week; log leads in `crm_tracker.csv` | - | - | - | - |
+| Day | Next dates (Oct 14 - Dec 14) | Time | Event | Who's there | Location | Phone | Link |
+|---|---|---|---|---|---|---|---|
+| **Mon** (2nd & 4th) | Oct 26, Nov 9, Nov 23, Dec 14 | 12:00 PM | Greater Irvine Chamber Leads Group | Business owners, CPAs, attorneys | Irvine (venue from chamber; office 2485 McCabe Way #150) | (949) 660-9112 | irvinechamber.com |
+| **Mon** (every) | Oct 19, 26, Nov 2, 9, 16, 23, 30, Dec 7 | AM | Call day: follow up last week's contacts; call 5 CPAs from `01_referral_partners.csv` | CPAs | Office | - | - |
+| **Tue** (every) | Oct 20, 27, Nov 3, 10, 17, 24, Dec 1, 8 | Evening | Commercial Real Estate Networking & Beer (no fees) | CRE brokers, owners, lenders | Costa Mesa / South Coast Metro (venue rotates; check Meetup) | Not listed | meetup.com/commercial-real-estate-networking |
+| **Tue** (1st) | Nov 3, Dec 1 | Evening | OC FIBI Real Estate Investment Club (~11k members) | Real estate investors | Irvine (venue on Meetup) | Not listed | meetup.com/orange-county-fibi |
+| **Wed** (1st, in person) | Nov 4, Dec 2 | 7:00-8:30 AM | Orange BNI | Local professionals | Orange (online the other Wednesdays) | Not listed | meetup.com/Orange-BNI-Orange-Countys-Best-Business-Group |
+| **Wed** (1st & 3rd) | Oct 21, Nov 4, Nov 18, Dec 2 | 12:00 PM | Greater Irvine Chamber Leads Group | Business owners, CPAs | Irvine | (949) 660-9112 | irvinechamber.com |
+| **Wed** (usual) | Oct 14, 21, 28, Nov 4, 11, 18, 25, Dec 2, 9 (check Meetup for which weeks) | ~6:00 PM | Tech Link Up After Hours | Tech founders, early employees (equity-rich) | Hangar 24, 17877 Von Karman Ave #110, Irvine | (949) 799-0020 (venue) | meetup.com/oc-tech-link-up |
+| **Wed or Thu** (weekly) | Week of Oct 14, 21, 28, Nov 4, 11, 18, Dec 2, 9 (day posted on Meetup; Thanksgiving week likely off) | 6:00-9:00 PM | OC Happy Hour | Mixed OC professionals | Rotates: Irvine, Newport, Costa Mesa (e.g. Hive & Honey Rooftop, Irvine) | Not listed | meetup.com/oc-happy-hour |
+| **Thu** (every) | Oct 15, 22, 29, Nov 5, 12, 19, Dec 3, 10 (Nov 26 Thanksgiving likely off) | 7:00-8:30 AM | LeTip of Irvine Spectrum breakfast (guests free) | Referral-based professionals | Irvine Spectrum (venue on site) | (949) 835-3847 | letipirvine.net |
+| **Thu** (every) | Oct 15, 22, 29, Nov 5, 12, 19, Dec 3, 10 (Nov 26 Thanksgiving likely off) | 7:00 AM | OC Pro Networkers breakfast ($15) | Referral-based professionals | Laguna Hills | (949) 278-3048 | ocpronet.com |
+| **Thu** (2nd) | Nov 12, Dec 10 | 5:30 PM check-in, 6:30-9:30 PM | **OCREIA monthly meeting** (top pick) | Active real estate investors | Avenue of the Arts Hotel, 3350 Avenue of the Arts, Costa Mesa (also Zoom) | (866) 200-1435 (OCREIA); (714) 751-5100 (hotel) | ocreia.com |
+| **Thu** (2nd) | Nov 12, Dec 10 | 7:00-10:00 PM | Property Deal Network (free, no pitches, 25+) | Real estate investors | Wild Goose Tavern, Costa Mesa | Not listed | skiddle.com (search "Property Deal Network") |
+| **Fri** | Oct 16, 23, 30, Nov 6, 13, 20, Dec 4, 11 | AM | Coffee with 1-2 CPAs / RIAs met that week | CPAs, advisors | Your pick | - | - |
+| **Sat** (occasional) | Oct 17 (5 PM Traders' Happy Hour confirmed); others posted on Meetup | Varies | OC Traders meetups and "Traders' Happy Hours" (stocks, options, futures) | Active traders | Irvine (hybrid; location on Meetup) | Not listed | meetup.com/octraders |
+| **Sun** | Oct 18, 25, Nov 1, 8, 15, 22, 29, Dec 6, 13 | - | Plan the week; log leads in `crm_tracker.csv` | - | - | - | - |
 
 ## Dated events, next 5 weeks
 
