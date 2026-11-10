@@ -114,9 +114,10 @@ footer{padding:28px 0 48px;border-top:1px solid var(--line)}
     <label class="check"><input type="checkbox" id="consent" name="consent" required>
       <span>I agree that PFD Capital Partners may contact me by email, phone, and text message (including by automated technology) at the number and email above about this offering. Consent is not a condition of any purchase. Message and data rates may apply; reply STOP to opt out of texts at any time. See our <a href="#privacy">Privacy Policy</a> and <a href="#terms-of-use">Terms</a>. <span class="note">[ATTORNEY TO APPROVE: TCPA/CAN-SPAM consent language]</span></span></label>
 
+    <div style="position:absolute;left:-9999px" aria-hidden="true"><label for="website">Leave blank</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
     <button type="submit" id="submit" disabled>Request information</button>
     <p class="small" id="msg" role="status"></p>
-    <p class="small"><span class="note">[PLACEHOLDER: connect form action to CRM / secure endpoint; log timestamp, IP, and exact consent text]</span></p>
+    <p class="small"><span class="note">[SETUP: paste the Apps Script web app URL into ENDPOINT in the script below; see leads/SETUP_lead_capture.md]</span></p>
   </form>
 </section>
 </main>
@@ -130,13 +131,23 @@ footer{padding:28px 0 48px;border-top:1px solid var(--line)}
 
 <script>
 (function(){
+  var ENDPOINT = ''; // paste your Google Apps Script web app URL here (ends in /exec)
+  var CONSENT_VERSION = 'v1-draft-attorney-to-approve';
   var f=document.getElementById('leadform'),a=document.getElementById('accredited'),c=document.getElementById('consent'),b=document.getElementById('submit'),m=document.getElementById('msg');
+  var qs = new URLSearchParams(location.search);
   function upd(){b.disabled=!(a.checked&&c.checked);}
   a.addEventListener('change',upd);c.addEventListener('change',upd);
   f.addEventListener('submit',function(e){
     e.preventDefault();
     if(!f.checkValidity()){f.reportValidity();return;}
-    m.textContent='Placeholder: form not connected yet. Nothing was sent.';
+    if(!ENDPOINT){m.textContent='Form not connected yet. Nothing was sent.';return;}
+    var d=new URLSearchParams(new FormData(f));
+    ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(function(k){d.set(k,qs.get(k)||'');});
+    d.set('page_url',location.href.split('#')[0]);d.set('referrer',document.referrer||'');d.set('consent_text_version',CONSENT_VERSION);
+    b.disabled=true;m.textContent='Sending...';
+    fetch(ENDPOINT,{method:'POST',mode:'no-cors',body:d}).then(function(){
+      f.reset();m.textContent='Thank you. A team member will contact you. We will verify your accredited status before sharing any offering documents.';
+    }).catch(function(){b.disabled=false;m.textContent='Something went wrong. Please try again or call us.';});
   });
 })();
 </script>
