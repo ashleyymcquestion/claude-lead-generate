@@ -10,7 +10,7 @@ Flow: visitor fills in `landing_page.html` -> the form posts to a Google Apps Sc
 ## Step 1: Create the Sheet and script (about 10 minutes)
 1. Go to sheets.google.com and create a blank sheet named **PFD Lead Tracker**.
 2. Menu: **Extensions > Apps Script**. Delete the sample code.
-3. Paste in everything from `leads/apps_script/Code.gs`.
+3. Paste in everything from `lead-tracker/apps_script/Code.gs`.
 4. Optional: set `NOTIFY_EMAIL` near the top to your email to get an alert for each new lead. The alert contains no personal data, only a link to the sheet.
 5. Click **Save**, choose the function **setup** in the dropdown, and click **Run**. Approve the permissions when Google asks. This creates two tabs: **Leads** and **Raw Submissions**.
 
@@ -21,7 +21,7 @@ Flow: visitor fills in `landing_page.html` -> the form posts to a Google Apps Sc
 4. If you change the script later, use **Deploy > Manage deployments > Edit > New version** or the URL keeps running the old code.
 
 ## Step 3: Connect the page
-1. Open `leads/landing_page.html` and find `var ENDPOINT = '';` near the bottom.
+1. Open `lead-tracker/landing_page.html` and find `var ENDPOINT = '';` near the bottom.
 2. Paste your Web app URL between the quotes.
 3. Fill in the placeholders on the page: legal entity name, mailing address, privacy policy and terms links. Your attorney must approve the text.
 4. Upload the page to your host.

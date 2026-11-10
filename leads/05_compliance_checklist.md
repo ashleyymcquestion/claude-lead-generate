@@ -176,7 +176,7 @@ Safer framing examples (counsel to approve): "targeted net return of approximate
 **TCPA (calls/texts)**
 - [ ] No autodialed or prerecorded/AI-voice calls or texts to mobile numbers without prior express written consent. Treat all texting as consent-required.
 - [ ] Respect calling hours: 8 a.m. to 9 p.m. in the recipient's local time.
-- [ ] Keep a written consent record (date, source, wording) per contact (see `crm_tracker.csv` `consent_to_contact`).
+- [ ] Keep a written consent record (date, source, wording) per contact (see `lead-tracker/crm_tracker.csv` `consent_to_contact`).
 - [ ] Honor revocation of consent promptly, including by informal means (e.g., "stop," "don't contact me").
 - [ ] Maintain an internal do-not-call list.
 

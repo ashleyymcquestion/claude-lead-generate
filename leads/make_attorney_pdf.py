@@ -39,7 +39,7 @@ SECTIONS = [
   'Does contacting firms in other states trigger notice filings or registration? Which states, and when?',
   'Which Form D and California notice filings are required, and by when?']),
  ('D. Content and claims', [
-  'Please review our scripts, emails, landing page and FAQ (04_outreach_playbook.md, landing_page.html).',
+  'Please review our scripts, emails, landing page and FAQ (04_outreach_playbook.md, lead-tracker/landing_page.html).',
   'What must we have on hand to substantiate our claims about the 3:1 collateral and the target return?',
   'What risk disclosures must accompany any mention of the return?',
   'Can we describe the offering to a referral firm before they have seen the PPM, or only after?']),

@@ -36,7 +36,7 @@
 16. Which **Form D** and **California notice** filings are required, and by when?
 
 ### D. Content and claims
-17. Please review our **scripts, emails, landing page and FAQ** (`04_outreach_playbook.md`, `landing_page.html`).
+17. Please review our **scripts, emails, landing page and FAQ** (`04_outreach_playbook.md`, `lead-tracker/landing_page.html`).
 18. What do we need on hand to **substantiate** the claims we make about the 3:1 collateral and the target return?
 19. What **risk disclosures** must accompany any mention of the return?
 20. Can we describe the offering to a referral firm in a short pitch before they have seen the PPM, or only after?

@@ -1,6 +1,6 @@
 # PFD Capital Partners: Inbound Funnel Plan (Rule 506(c))
 
-Status: DRAFT for securities-counsel review. Nothing here is legal advice. Every item marked [ATTORNEY TO APPROVE] must be cleared before launch, including all ads, emails, scripts, and the landing page (`leads/landing_page.html`).
+Status: DRAFT for securities-counsel review. Nothing here is legal advice. Every item marked [ATTORNEY TO APPROVE] must be cleared before launch, including all ads, emails, scripts, and the landing page (`lead-tracker/landing_page.html`).
 
 Offering facts used: Irvine, CA issuer; Rule 506(c); accredited investors only; $100k minimum; funds medical receivables for personal-injury (PI) doctors; repaid when insurers or settlements pay; 3:1 collateral target; ~15% annual return target.
 
@@ -16,7 +16,7 @@ Offering facts used: Irvine, CA issuer; Rule 506(c); accredited investors only; 
 
 ## 1. Landing page
 
-File: `leads/landing_page.html` (self-contained, light/dark, mobile-friendly). Contains:
+File: `lead-tracker/landing_page.html` (self-contained, light/dark, mobile-friendly). Contains:
 - Headline, "how it works" in 4 steps, key terms (target return labeled "target, not guaranteed").
 - Risk disclosure: delayed settlements, case losses, collateral valuation, illiquidity, loss of principal, plus concentration/regulatory and "past results" notes.
 - Accredited-investor self-certification checkbox (required) and TCPA/CAN-SPAM consent checkbox (required, unchecked by default, separate from the certification, not a condition of purchase).

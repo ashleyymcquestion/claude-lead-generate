@@ -62,7 +62,7 @@ def build():
     els += [Paragraph('<b>Event rules for PFD</b>', bd),
             Paragraph('Collect cards and ask for introductions. Do not take money or subscription documents at an event. Describe returns only as a target, never guaranteed, '
                       'and do not quote returns until counsel approves your materials. Anyone interested must be verified as accredited under 506(c) before investing. '
-                      'Log every contact in the tracker (<i>crm_tracker.csv</i>) and send follow-up only to people who agree to it.', sm), Spacer(1, 8)]
+                      'Log every contact in the tracker (<i>lead-tracker/crm_tracker.csv</i>) and send follow-up only to people who agree to it.', sm), Spacer(1, 8)]
     d2 = [['Date', 'Event', 'Where', 'Audience']] + [[P(a), P('<b>%s</b>' % b), P(c), P(d)] for a, b, c, d in COMING]
     t2 = Table(d2, colWidths=[90, 270, 130, 250], repeatRows=1)
     t2.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, 0), NAVY), ('TEXTCOLOR', (0, 0), (-1, 0), colors.white), ('FONTSIZE', (0, 0), (-1, -1), 8),
